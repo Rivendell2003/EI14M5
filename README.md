@@ -51,7 +51,7 @@ Si deseas contribuir al proyecto, sigue estos pasos:
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [MIT License](https://github.com/Rivendell2003/EI14M5/blob/master/MIT%20License) para más detalles.
 
 ## Contacto
 
