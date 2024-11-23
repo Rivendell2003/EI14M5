@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="@drawable/background_gradient">
+
+    <!-- el titulo -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USER LOGIN"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="4"
+        android:shadowRadius="6" />
+
+    <!-- aca el Campo para el Email -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_input_field"
+        android:hint="@string/hint_email"
+        android:importantForAccessibility="yes"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#212121"
+        android:textColorHint="#757575"
+        android:textSize="16sp" />
+
+    <!-- aca tenemos un Campo para la Contraseña -->
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_input_field"
+        android:hint="@string/hint_password"
+        android:importantForAccessibility="yes"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="#212121"
+        android:textColorHint="#757575"
+        android:textSize="16sp" />
+
+    <!-- aca la Casilla de "Recordarme" -->
+    <CheckBox
+        android:id="@+id/cbRememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/content_desc_remember_me"
+        android:importantForAccessibility="yes"
+        android:text="@string/label_remember_me"
+        android:textColor="#D81B60"
+        android:textSize="14sp" />
+
+    <!-- el Botón de Login -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:text="@string/button_login"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/rounded_button"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="@string/content_desc_login" />
+
+    <!-- aca el link de "Olvidé mi contraseña" -->
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/content_desc_forgot_password"
+        android:gravity="center"
+        android:importantForAccessibility="yes"
+        android:text="@string/label_forgot_password"
+        android:textColor="#03A9F4"
+        android:textSize="14sp"
+        tools:ignore="TextContrastCheck" />
+
+    <!-- mis creditos como desarrollador -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="by Jonny V A."
+        android:textColor="#81D4FA"
+        android:textSize="12sp" />
+
+</LinearLayout>
