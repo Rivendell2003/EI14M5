@@ -1,4 +1,4 @@
-🧑‍💻 EI14M5 – Aplicación Android con Pantalla de Inicio de Sesión
+🧑‍💻 IniciaPro – Aplicación Android con Pantalla de Inicio de Sesión
 EI14M5 es una aplicación Android básica desarrollada en Kotlin, que presenta una pantalla de inicio de sesión con un diseño moderno y atractivo. Utiliza un fondo de gradiente lineal y está optimizada para dispositivos con Android 12 (API 31) o versiones superiores. Este proyecto es ideal para desarrolladores que desean aprender y personalizar interfaces de usuario en Android.
 
 🎯 Objetivo del Proyecto
