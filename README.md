@@ -1,62 +1,42 @@
-# Proyecto Android - Aplicación de Inicio de Sesión
+🧑‍💻 EI14M5 – Aplicación Android con Pantalla de Inicio de Sesión
+EI14M5 es una aplicación Android básica desarrollada en Kotlin, que presenta una pantalla de inicio de sesión con un diseño moderno y atractivo. Utiliza un fondo de gradiente lineal y está optimizada para dispositivos con Android 12 (API 31) o versiones superiores. Este proyecto es ideal para desarrolladores que desean aprender y personalizar interfaces de usuario en Android.
 
-Este es un proyecto de aplicación Android básico, desarrollado en **Kotlin**. La aplicación presenta una pantalla de inicio de sesión con un fondo de gradiente lineal y está diseñada para ser compatible con dispositivos Android **12** (API 31) o superiores.
+🎯 Objetivo del Proyecto
+El objetivo principal de EI14M5 es proporcionar una base sencilla para aplicaciones que requieran autenticación de usuario. Su diseño limpio y funcionalidad básica permiten a los desarrolladores enfocarse en la personalización y expansión de la aplicación según sus necesidades.
 
-## Descripción
+🧩 Características Principales
+Pantalla de Inicio de Sesión: Formulario simple con campos para usuario y contraseña.
 
-La aplicación contiene una única actividad (`LoginActivity`) que presenta un formulario simple para el inicio de sesión, utilizando un fondo con un gradiente entre los colores **#6A1B9A** (morado) y **#00C853** (verde).
+Diseño Moderno: Fondo de gradiente lineal que ofrece una apariencia atractiva.
 
-**Características:**
-- Fondo con gradiente lineal.
-- Diseño responsive.
-- Compatible con Android 12 o versiones superiores.
-- Proceso de inicio de sesión básico (aún no funcional con backend).
+Compatibilidad: Optimizada para dispositivos con Android 12 (API 31) o superiores.
 
-## Tecnologías utilizadas
+Código Limpio y Modular: Estructura clara que facilita la comprensión y modificación del código.
 
-- **Kotlin**: Lenguaje de programación principal.
-- **Android SDK**: Android 12 (API 31) o superior.
-- **Gradle**: Herramienta de construcción.
-- **Jetpack**: Dependencias de AndroidX para mejorar la arquitectura.
+📁 Estructura del Proyecto
+.idea/: Archivos de configuración del proyecto.
 
-## Requisitos
+app/: Contiene el código fuente de la aplicación.
 
-- Android Studio (última versión recomendada).
-- JDK 11 o superior.
-- Un dispositivo Android con **API 31** (Android 12) o superior.
+gradle/: Scripts de construcción del proyecto.
 
-## Instalación
+build.gradle.kts: Script de construcción en Kotlin DSL.
 
-1. Clona el repositorio:
-    ```bash
-    git clone https://github.com/rivendell2003/EI14M5
-    ```
+gradle.properties: Configuración de propiedades de Gradle.
 
-2. Abre el proyecto en **Android Studio**.
+gradlew y gradlew.bat: Scripts para ejecutar Gradle en sistemas Unix y Windows, respectivamente.
 
-3. Sincroniza el proyecto con Gradle para descargar las dependencias necesarias.
+settings.gradle.kts: Configuración del proyecto.
 
-4. Conecta un dispositivo o inicia un emulador.
 
-5. Ejecuta la aplicación desde Android Studio.
+## 📄 Licencia
 
-## Contribuciones
+Este proyecto está licenciado bajo la Licencia MIT. Puedes usar, copiar, modificar y distribuir el software, siempre que incluyas el aviso de copyright y la renuncia de responsabilidad.
 
-Si deseas contribuir al proyecto, sigue estos pasos:
+Más información sobre esta licencia en: [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
 
-1. Realiza un fork de este repositorio.
-2. Crea una rama nueva para tu funcionalidad o corrección de error.
-3. Haz tus cambios y realiza un commit.
-4. Abre un Pull Request con una descripción de tus cambios.
 
-## Licencia
+👤 Autor
+JonnyJaVa
 
-Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [MIT License](https://github.com/Rivendell2003/EI14M5/blob/master/MIT%20License) para más detalles.
-
-## Contacto
-
-Si tienes alguna pregunta o sugerencia, no dudes en abrir un _issue_ o contactarme a través de [rivendell20032004@gmail.com).
-
----
-
-¡Gracias por explorar este proyecto!
+Si utilizas este proyecto, por favor, atribuye adecuadamente al autor mencionando su nombre y proporcionando un enlace a este repositorio.
